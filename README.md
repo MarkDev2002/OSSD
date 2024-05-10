@@ -45,5 +45,5 @@ Khám phá các chức năng cơ bản của ứng dụng như:
 |----------------------|-----------|
 | Nguyễn Tuấn Kiệt     | 3120410272 |
 | Ngô Văn Tín          | 3120410534 |
-| Trần Chánh Quốc Định | 3120411   |
+| Trần Chánh Quốc Định | 3120411050 |
 
