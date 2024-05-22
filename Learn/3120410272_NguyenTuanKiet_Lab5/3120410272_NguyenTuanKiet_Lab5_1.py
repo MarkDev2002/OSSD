@@ -16,14 +16,11 @@ class SubjectMapping:
         }
 
     def cauA(self):
-        for i in range(len(self.list_A)):
-            print("Môn học: ", self.list_A[i], "- Mã môn: ", self.list_B[i])
+        for monHoc, maMon in zip (self.list_A, self.list_B):
+            print("Môn học: ", monHoc, "- Mã môn: ", maMon)
 
     def cauB(self):
-        result = []
-        for mamonHoc, manganh in self.mamonHoc.items():
-            result.append((mamonHoc, self.manganh[manganh]))
-        return result
+        return [(mamonHoc, self.manganh[manganh]) for mamonHoc, manganh in self.mamonHoc.items()]
 
 
 if __name__ == "__main__":
@@ -39,4 +36,4 @@ if __name__ == "__main__":
     print("\nMapping mamonHoc với manganh:")
     map = subjects.cauB()
     for mamonHoc, manganh in map:
-        print(f"{mamonHoc}: {manganh}")
+        print(f"{mamonHoc} : {manganh}")
